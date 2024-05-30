@@ -11,7 +11,7 @@ class Author(models.Model):
     deleted = models.BooleanField(
         default=False,
         verbose_name='Удалено',
-        help_text='Если True аккаунт удален, если False аккаунт активен'
+        help_text='Если True аккаунт удален, если False аккаунт активен.'
     )
     rating = models.FloatField(
         default=1,
